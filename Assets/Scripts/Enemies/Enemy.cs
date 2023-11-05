@@ -4,9 +4,11 @@ using UnityEngine;
 
 public abstract class Enemy : MonoBehaviour
 {
-    public int hp;
+    public int health;
     public int speed;
     public int playerDetectRadius;
+
+    public GameObject bloodEffect;
 
     protected Transform playerT;
     protected Animator anim;
@@ -27,7 +29,7 @@ public abstract class Enemy : MonoBehaviour
     protected EnemyState currentState = EnemyState.Idle;
 
     // Start is called before the first frame update
-    protected void Start()
+    protected virtual void Start()
     {
         playerT = GameObject.Find("Player").transform;
         anim = GetComponent<Animator>();
@@ -38,8 +40,16 @@ public abstract class Enemy : MonoBehaviour
     }
 
     // Update is called once per frame
-    protected void Update()
+    protected virtual void Update()
     {
+
+        if (health<=0){
+            Destroy(gameObject);
+        }
+
+
+
+
         Collider2D[] nearbyCol = Physics2D.OverlapCircleAll(transform.position, playerDetectRadius);
         for(int i = 0; i < nearbyCol.Length; i++)
         {
@@ -119,4 +129,10 @@ public abstract class Enemy : MonoBehaviour
             anim.SetTrigger("ToStopMove");
         }
     }
+
+    public void TakeDamage(int damage){
+            Instantiate(bloodEffect,transform.position,Quaternion.identity);
+            health-=damage;
+            Debug.Log("Damage Taken!");
+        }
 }

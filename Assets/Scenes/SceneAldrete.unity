@@ -246,6 +246,83 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &981283479
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -2278968152300598884, guid: 9bf3305286b131243a27f292f7a1772c, type: 3}
+      propertyPath: health
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -2278968152300598884, guid: 9bf3305286b131243a27f292f7a1772c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2278968152300598884, guid: 9bf3305286b131243a27f292f7a1772c, type: 3}
+      propertyPath: bloodEffect
+      value: 
+      objectReference: {fileID: 304027038790518012, guid: 44eca14d32a57479594cfff00bae5a55, type: 3}
+    - target: {fileID: 564360445314528611, guid: 9bf3305286b131243a27f292f7a1772c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.56979185
+      objectReference: {fileID: 0}
+    - target: {fileID: 564360445314528611, guid: 9bf3305286b131243a27f292f7a1772c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.74902225
+      objectReference: {fileID: 0}
+    - target: {fileID: 564360445314528611, guid: 9bf3305286b131243a27f292f7a1772c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564360445314528611, guid: 9bf3305286b131243a27f292f7a1772c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 564360445314528611, guid: 9bf3305286b131243a27f292f7a1772c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564360445314528611, guid: 9bf3305286b131243a27f292f7a1772c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564360445314528611, guid: 9bf3305286b131243a27f292f7a1772c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564360445314528611, guid: 9bf3305286b131243a27f292f7a1772c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564360445314528611, guid: 9bf3305286b131243a27f292f7a1772c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564360445314528611, guid: 9bf3305286b131243a27f292f7a1772c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 713556720479044881, guid: 9bf3305286b131243a27f292f7a1772c, type: 3}
+      propertyPath: m_Name
+      value: Berenjena
+      objectReference: {fileID: 0}
+    - target: {fileID: 713556720479044881, guid: 9bf3305286b131243a27f292f7a1772c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562158921077081604, guid: 9bf3305286b131243a27f292f7a1772c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9bf3305286b131243a27f292f7a1772c, type: 3}
 --- !u!1 &1147125451
 GameObject:
   m_ObjectHideFlags: 0
@@ -2003,13 +2080,13 @@ GameObject:
   - component: {fileID: 1832716418}
   - component: {fileID: 1832716417}
   - component: {fileID: 1832716419}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Isometric Diamond
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1832716415
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2381,9 +2458,6 @@ MonoBehaviour:
   speed: 8
   feetPos: {fileID: 1457784801}
   checkRadius: 0.15
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 64
   jumpTime: 0.3
 --- !u!114 &1965389133
 MonoBehaviour:
@@ -2401,7 +2475,7 @@ MonoBehaviour:
   attackPos: {fileID: 188397369}
   whatIsEnemies:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 256
   attackRange: 0.95
   damage: 1
 --- !u!1660057539 &9223372036854775807
@@ -2413,3 +2487,4 @@ SceneRoots:
   - {fileID: 1587167623}
   - {fileID: 1832716416}
   - {fileID: 1844543635}
+  - {fileID: 981283479}

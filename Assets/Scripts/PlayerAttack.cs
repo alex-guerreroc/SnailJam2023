@@ -29,7 +29,11 @@ public class PlayerAttack : MonoBehaviour
                 Debug.Log("Has attacked!");
                 Collider2D[] enemiesToDamage=Physics2D.OverlapCircleAll(attackPos.position,attackRange,whatIsEnemies);
                 for (int i=0; i<enemiesToDamage.Length;i++){
-                    enemiesToDamage[i].GetComponent<ScriptEnemigoNuevo>().TakeDamage(damage);
+                    if(enemiesToDamage[i].tag == "Enemy")
+                    {
+                        enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
+                    }
+                    
                 }
             }
 
