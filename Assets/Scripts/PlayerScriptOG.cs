@@ -26,19 +26,21 @@ public class PlayerScript : MonoBehaviour
     void Update()
     {
         direction = new Vector2(Input.GetAxisRaw("Horizontal"), 0);
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow))
         {
             jump();
         }
+
     }
 
     void FixedUpdate()
     {
         rb.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * speed, rb.velocity.y);
+        Debug.Log(currentState);
     }
 
     void getGrounded(){
-        Collider2D groundCol = Physics2D.OverlapArea(new Vector2(groundCheck.position.x + 0.5f,groundCheck.position.y + 0.1f), new Vector2(groundCheck.position.x + -0.5f,groundCheck.position.y - 0.1f));
+        Collider2D groundCol = Physics2D.OverlapArea(new Vector2(groundCheck.position.x + 0.5f,groundCheck.position.y + 0.2f), new Vector2(groundCheck.position.x + -0.5f,groundCheck.position.y - 0.2f));
 
         if(groundCol != null)
         {
