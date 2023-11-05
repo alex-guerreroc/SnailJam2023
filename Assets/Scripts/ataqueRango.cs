@@ -19,7 +19,7 @@ public class ataqueRango : MonoBehaviour
 
         if (timeBtwShots <= 0)
         {
-            if (Input.GetKey(KeyCode.X))
+            if (Input.GetMouseButton(0))
             {
                 Debug.Log("Has shot!");
                 Instantiate(projectile, shotPoint.position, transform.rotation);
