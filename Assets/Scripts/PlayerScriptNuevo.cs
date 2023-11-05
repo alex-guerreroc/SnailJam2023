@@ -35,6 +35,7 @@ public class PlayerScriptNuevo : MonoBehaviour
 void Update()
     {
         isGrounded=Physics2D.OverlapCircle(feetPos.position,checkRadius,whatIsGround);
+        Debug.Log(isGrounded);
         if(isGrounded==true){
             coyoteTimeCounter=coyoteTime;
         }
