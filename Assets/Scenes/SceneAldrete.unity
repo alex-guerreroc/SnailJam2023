@@ -2533,7 +2533,7 @@ MonoBehaviour:
   offset: -90
   projectile: {fileID: 8391921280595970186, guid: e51fdab843df44273a01e46d73a87715, type: 3}
   shotPoint: {fileID: 1954061232}
-  startTimeBtwShots: 0.1
+  startTimeBtwShots: 0.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
