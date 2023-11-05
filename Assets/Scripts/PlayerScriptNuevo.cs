@@ -20,7 +20,9 @@ public class PlayerScriptNuevo : MonoBehaviour
 
     private float jumpBufferTime=0.08f;
     private float jumpBufferCounter;
+    public LayerMask whatIsGround;
 
+    private bool isGrounded;
 
 
     // Start is called before the first frame update
@@ -32,8 +34,8 @@ public class PlayerScriptNuevo : MonoBehaviour
 
 void Update()
     {
-        Collider2D groundCol = Physics2D.OverlapCircle(feetPos.position,checkRadius);
-        if(groundCol != null){
+        isGrounded=Physics2D.OverlapCircle(feetPos.position,checkRadius,whatIsGround);
+        if(isGrounded==true){
             coyoteTimeCounter=coyoteTime;
         }
         else{
