@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 1
-  speed: 5
+  speed: 2
   playerDetectRadius: 10
   directions: 
   idleTimeMin: 4

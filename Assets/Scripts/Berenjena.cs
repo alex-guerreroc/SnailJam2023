@@ -94,7 +94,13 @@ public class Berenjena : MonoBehaviour
             sr.flipX = false;
         }
 
-        transform.position = Vector2.MoveTowards(transform.position, new Vector2(moveDirection*10000,transform.position.y), Time.deltaTime*speed/4);
+        transform.position = Vector2.MoveTowards(transform.position, new Vector2(moveDirection*10000,transform.position.y), Time.deltaTime*speed/2);
+        
+        if(playerFound)
+        {
+            currentState = EnemyState.Chasing;
+            chaseTime = chaseTimeMax;
+        }
         moveTime -= Time.deltaTime;
         if(moveTime <= 0f)
         {

@@ -8,10 +8,8 @@ public class PlayerScriptNuevo : MonoBehaviour
     public float jumpForce;
     public float speed;
     private float moveInput;
-    private bool isGrounded;
     public Transform feetPos;
     public float checkRadius;
-    public LayerMask whatIsGround;
     private float jumpTimeCounter;
     public float jumpTime;
     private bool isJumping;
@@ -34,9 +32,8 @@ public class PlayerScriptNuevo : MonoBehaviour
 
 void Update()
     {
-        isGrounded=Physics2D.OverlapCircle(feetPos.position,checkRadius,whatIsGround);
-
-        if (isGrounded==true){
+        Collider2D groundCol = Physics2D.OverlapCircle(feetPos.position,checkRadius);
+        if(groundCol != null){
             coyoteTimeCounter=coyoteTime;
         }
         else{

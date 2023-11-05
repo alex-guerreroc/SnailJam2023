@@ -2380,7 +2380,7 @@ MonoBehaviour:
   attackPos: {fileID: 1923463948}
   whatIsEnemies:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   attackRange: 0.95
   damage: 1
 --- !u!114 &1491493972
@@ -2399,9 +2399,6 @@ MonoBehaviour:
   speed: 8
   feetPos: {fileID: 1688469541}
   checkRadius: 0.15
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 64
   jumpTime: 0.3
 --- !u!50 &1491493973
 Rigidbody2D:
