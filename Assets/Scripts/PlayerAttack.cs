@@ -25,6 +25,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if (timeBtwAttack<=0){
             if(Input.GetKey(KeyCode.Z)){
+
                 Debug.Log("Has attacked!");
                 Collider2D[] enemiesToDamage=Physics2D.OverlapCircleAll(attackPos.position,attackRange,whatIsEnemies);
                 for (int i=0; i<enemiesToDamage.Length;i++){
