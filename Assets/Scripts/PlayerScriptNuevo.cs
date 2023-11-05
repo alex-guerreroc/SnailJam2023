@@ -16,7 +16,12 @@ public class PlayerScriptNuevo : MonoBehaviour
     public float jumpTime;
     private bool isJumping;
 
-    private bool ableToJump = true;
+
+    private float coyoteTime=0.12f;
+    private float coyoteTimeCounter;
+
+    private float jumpBufferTime=0.08f;
+    private float jumpBufferCounter;
 
 
 
@@ -29,8 +34,18 @@ public class PlayerScriptNuevo : MonoBehaviour
 
 void Update()
     {
-        Debug.Log(isGrounded);
         isGrounded=Physics2D.OverlapCircle(feetPos.position,checkRadius,whatIsGround);
+
+        if (isGrounded==true){
+            coyoteTimeCounter=coyoteTime;
+        }
+        else{
+            coyoteTimeCounter-=Time.deltaTime;
+        }
+
+        if(Input.GetKeyDown(KeyCode.Space)){
+            jumpBufferCounter=jumpBufferTime;
+        }
 
         if(moveInput>0){
             transform.eulerAngles=new Vector3(0,0,0);
@@ -38,11 +53,13 @@ void Update()
             transform.eulerAngles=new Vector3(0,180,0);
         }
 
-        if(isGrounded==true && Input.GetKeyDown(KeyCode.Space)){
+        if(coyoteTimeCounter>0f && jumpBufferCounter>0f){
             isJumping=true;
             jumpTimeCounter=jumpTime;
             rb.velocity=Vector2.up*jumpForce;
-            ableToJump = false;
+            jumpBufferCounter=0;
+        } else{
+            jumpBufferCounter-=Time.deltaTime;
         }
 
 
@@ -62,6 +79,7 @@ void Update()
         }
         if(Input.GetKeyUp(KeyCode.Space)){
             isJumping=false;
+            coyoteTimeCounter=0f;
         }
     }
     // Update is called once per frame

@@ -123,6 +123,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &188397368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 188397369}
+  m_Layer: 0
+  m_Name: attackPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &188397369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188397368}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.01, y: -0.06, z: -0.006588905}
+  m_LocalScale: {x: 1, y: 1, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1965389131}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1972,7 +2003,7 @@ GameObject:
   - component: {fileID: 1832716418}
   - component: {fileID: 1832716417}
   - component: {fileID: 1832716419}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Isometric Diamond
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2040,7 +2071,7 @@ Transform:
   m_GameObject: {fileID: 1832716414}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.1035, y: -0.4692, z: 0}
+  m_LocalPosition: {x: 9.68, y: -0.4692, z: 0}
   m_LocalScale: {x: -0.58542573, y: 2, z: 1.5061508}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2131,9 +2162,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1832716414}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 709b70a3fca4643b9a6380ceac113ad9, type: 3}
+  m_Script: {fileID: 11500000, guid: 6085db009c6d64d2e8446ededbcfb541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 3
+  speed: 3
+  bloodEffect: {fileID: 304027038790518012, guid: 44eca14d32a57479594cfff00bae5a55, type: 3}
 --- !u!1 &1844543633
 GameObject:
   m_ObjectHideFlags: 0
@@ -2192,6 +2226,7 @@ GameObject:
   - component: {fileID: 1965389128}
   - component: {fileID: 1965389127}
   - component: {fileID: 1965389132}
+  - component: {fileID: 1965389133}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2327,6 +2362,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1457784801}
+  - {fileID: 188397369}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1965389132
@@ -2349,6 +2385,25 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   jumpTime: 0.3
+--- !u!114 &1965389133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965389126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e4fbc7427a034560a33264772cf8af6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startTimeBtwAttack: 0.1
+  attackPos: {fileID: 188397369}
+  whatIsEnemies:
+    serializedVersion: 2
+    m_Bits: 128
+  attackRange: 0.95
+  damage: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
