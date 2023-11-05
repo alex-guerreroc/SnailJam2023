@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b297047eaaf84a00bc772d84401e97e
+guid: fc12b20dcd575437e930b56a9e5050eb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AirIdle_0
+      name: ProtaPalaRun_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0d58a5bc6fe74a3388d315e6f517762
-      internalID: 328331361
+      spriteID: 8347277c8ac6e446aac899e30906cc9e
+      internalID: -1053236286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_1
+      name: ProtaPalaRun_1
       rect:
         serializedVersion: 2
         x: 128
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37b4fc0153b894c0587a6e0a5601a3fa
-      internalID: -592708970
+      spriteID: a01ac1a74e42f408085c6915f2cc31d8
+      internalID: -57751303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_2
+      name: ProtaPalaRun_2
       rect:
         serializedVersion: 2
         x: 256
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ce8de7b090b74108b7abf4ed1f71178
-      internalID: -282319979
+      spriteID: 8fd9e4abb18454a87a6cd744ac474c15
+      internalID: 657426506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_3
+      name: ProtaPalaRun_3
       rect:
         serializedVersion: 2
         x: 384
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd1bc5ff315794de397f3722e68e0fd0
-      internalID: -1236160851
+      spriteID: 2ee6d575b2a0048c797c66bd07bcd495
+      internalID: -568612622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_4
+      name: ProtaPalaRun_4
       rect:
         serializedVersion: 2
         x: 512
@@ -208,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb4abe2b423684fd0afa7bdc82037e75
-      internalID: -427116838
+      spriteID: bd24835415fba49deaa77a58c6def23c
+      internalID: -1741100908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_5
+      name: ProtaPalaRun_5
       rect:
         serializedVersion: 2
         x: 640
@@ -229,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87107d3616a404356856b0c76ac9c711
-      internalID: 1775951841
+      spriteID: 1ba6f8162134f4fc99b13a697fad0efd
+      internalID: 1042728581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_6
+      name: ProtaPalaRun_6
       rect:
         serializedVersion: 2
         x: 768
@@ -250,14 +250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fbbab0ac937340188bf8f9dc79370b9
-      internalID: -1829498384
+      spriteID: 3a2c6f15527ec4c7e805d010486392e3
+      internalID: 1350221792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_7
+      name: ProtaPalaRun_7
       rect:
         serializedVersion: 2
         x: 896
@@ -271,14 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2fc1ae67cb3040f3bd3bf4f8847efa1
-      internalID: -392190494
+      spriteID: 911261e6c17fc4bed974283e8ebe386b
+      internalID: 789694416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_8
+      name: ProtaPalaRun_8
       rect:
         serializedVersion: 2
         x: 0
@@ -292,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 711f96c08acc24613a70d2f0189f216a
-      internalID: -815146827
+      spriteID: b9313e95fe8fa43c482fb80e58393074
+      internalID: 1733870433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_9
+      name: ProtaPalaRun_9
       rect:
         serializedVersion: 2
         x: 128
@@ -313,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fb9cea82814e47709d9ac6dca24e11d
-      internalID: -1521765791
+      spriteID: 5cf7878069f1243d4807a41dc6540425
+      internalID: 690927503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_10
+      name: ProtaPalaRun_10
       rect:
         serializedVersion: 2
         x: 256
@@ -334,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 085f5976d8e2a4ee59ecf35944169bf7
-      internalID: 1410281416
+      spriteID: 8eb60cab1faee497cbb8dcc545c24ae7
+      internalID: 834297809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_11
+      name: ProtaPalaRun_11
       rect:
         serializedVersion: 2
         x: 384
@@ -355,14 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04b8acd6f3f5b4bf4b4eddd665d1006b
-      internalID: -1421091251
+      spriteID: 1df7c22fbd3f74a14a8e74e40e3b1472
+      internalID: -353191614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_12
+      name: ProtaPalaRun_12
       rect:
         serializedVersion: 2
         x: 512
@@ -376,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66ef341a3c3d5431385b039fdc7154dc
-      internalID: 1453040975
+      spriteID: f71f4bab3d0864c709e7426b5789d697
+      internalID: -915238395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_13
+      name: ProtaPalaRun_13
       rect:
         serializedVersion: 2
         x: 640
@@ -397,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c788b008d63f47a1bbf58095100c8a2
-      internalID: 2089898059
+      spriteID: d0f4d921be19e458d975afdbd6bc5a66
+      internalID: -1771111306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_14
+      name: ProtaPalaRun_14
       rect:
         serializedVersion: 2
         x: 768
@@ -418,14 +418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe4e8ddf577884eb4b075414cb463070
-      internalID: -386086690
+      spriteID: 9edf413057b9a4f9b84c85cb4207ac97
+      internalID: 1503329419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_15
+      name: ProtaPalaRun_15
       rect:
         serializedVersion: 2
         x: 896
@@ -439,14 +439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 188d16ee0ab8a4b588ad8325cb847fb6
-      internalID: 997159153
+      spriteID: f21b8305845304f18b90fb9ab889c36e
+      internalID: 183485088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_16
+      name: ProtaPalaRun_16
       rect:
         serializedVersion: 2
         x: 0
@@ -460,14 +460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04ed5324f8eab42e29ac9f01eefad855
-      internalID: 835850547
+      spriteID: 45f8c293d36ae4a25bd765426b6ee043
+      internalID: -948130458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_17
+      name: ProtaPalaRun_17
       rect:
         serializedVersion: 2
         x: 128
@@ -481,14 +481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8e14adaeae7846cc901ac275a8e0d41
-      internalID: 644750597
+      spriteID: 7085a5e70921c475f8e0894ff06994d2
+      internalID: -715981361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_18
+      name: ProtaPalaRun_18
       rect:
         serializedVersion: 2
         x: 256
@@ -502,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99bf8718c117c4a839bacc6e8edecc85
-      internalID: 1424809334
+      spriteID: eb59c3c650b41491e83c31d37f965d3e
+      internalID: -930059838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_19
+      name: ProtaPalaRun_19
       rect:
         serializedVersion: 2
         x: 384
@@ -523,14 +523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98958357a99ca4862bc002485d8d3167
-      internalID: 1669384328
+      spriteID: e76559cb126a04c7d88840566714b281
+      internalID: -1558776600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_20
+      name: ProtaPalaRun_20
       rect:
         serializedVersion: 2
         x: 512
@@ -544,8 +544,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89479bdf2c32f4f928c7067a13ce011f
-      internalID: -646021695
+      spriteID: e843d0965ac054a21915e2f7851a8b18
+      internalID: -1141844618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaPalaRun_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68cfa344c3d547c4b2156ef38e05df8
+      internalID: 1365230207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaPalaRun_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66130eb223bc49e8983daf52f05e6be
+      internalID: -1920791500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaPalaRun_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91ae3df471fb45fb9d6f687a7e12c55
+      internalID: -1730092569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaPalaRun_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cd67e4a831a4994bfd7a996bf1c3b8
+      internalID: -1766668511
       vertices: []
       indices: 
       edges: []
@@ -561,27 +645,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      AirIdle_0: 328331361
-      AirIdle_1: -592708970
-      AirIdle_10: 1410281416
-      AirIdle_11: -1421091251
-      AirIdle_12: 1453040975
-      AirIdle_13: 2089898059
-      AirIdle_14: -386086690
-      AirIdle_15: 997159153
-      AirIdle_16: 835850547
-      AirIdle_17: 644750597
-      AirIdle_18: 1424809334
-      AirIdle_19: 1669384328
-      AirIdle_2: -282319979
-      AirIdle_20: -646021695
-      AirIdle_3: -1236160851
-      AirIdle_4: -427116838
-      AirIdle_5: 1775951841
-      AirIdle_6: -1829498384
-      AirIdle_7: -392190494
-      AirIdle_8: -815146827
-      AirIdle_9: -1521765791
+      ProtaPalaRun_0: -1053236286
+      ProtaPalaRun_1: -57751303
+      ProtaPalaRun_10: 834297809
+      ProtaPalaRun_11: -353191614
+      ProtaPalaRun_12: -915238395
+      ProtaPalaRun_13: -1771111306
+      ProtaPalaRun_14: 1503329419
+      ProtaPalaRun_15: 183485088
+      ProtaPalaRun_16: -948130458
+      ProtaPalaRun_17: -715981361
+      ProtaPalaRun_18: -930059838
+      ProtaPalaRun_19: -1558776600
+      ProtaPalaRun_2: 657426506
+      ProtaPalaRun_20: -1141844618
+      ProtaPalaRun_21: 1365230207
+      ProtaPalaRun_22: -1920791500
+      ProtaPalaRun_23: -1730092569
+      ProtaPalaRun_24: -1766668511
+      ProtaPalaRun_3: -568612622
+      ProtaPalaRun_4: -1741100908
+      ProtaPalaRun_5: 1042728581
+      ProtaPalaRun_6: 1350221792
+      ProtaPalaRun_7: 789694416
+      ProtaPalaRun_8: 1733870433
+      ProtaPalaRun_9: 690927503
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

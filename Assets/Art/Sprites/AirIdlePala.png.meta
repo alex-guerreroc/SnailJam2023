@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b297047eaaf84a00bc772d84401e97e
+guid: fecaf6dbd3f3c4094a873be191b30089
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AirIdle_0
+      name: AirIdlePala_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0d58a5bc6fe74a3388d315e6f517762
-      internalID: 328331361
+      spriteID: 86912ea0d925f4d7ebf770aef64c5cb8
+      internalID: 503811020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_1
+      name: AirIdlePala_1
       rect:
         serializedVersion: 2
         x: 128
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37b4fc0153b894c0587a6e0a5601a3fa
-      internalID: -592708970
+      spriteID: 96c3d1763ec844ac294f53ebf39b5ac3
+      internalID: -1241395197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_2
+      name: AirIdlePala_2
       rect:
         serializedVersion: 2
         x: 256
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ce8de7b090b74108b7abf4ed1f71178
-      internalID: -282319979
+      spriteID: 7d045c2ef595849bfa5f6eef86aa7934
+      internalID: -371764121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_3
+      name: AirIdlePala_3
       rect:
         serializedVersion: 2
         x: 384
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd1bc5ff315794de397f3722e68e0fd0
-      internalID: -1236160851
+      spriteID: a5c0134b236f440a9b8af8a0ca3a0609
+      internalID: 1595188713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_4
+      name: AirIdlePala_4
       rect:
         serializedVersion: 2
         x: 512
@@ -208,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb4abe2b423684fd0afa7bdc82037e75
-      internalID: -427116838
+      spriteID: ac83a7cc22b6447458765ab00f706898
+      internalID: -1692512687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_5
+      name: AirIdlePala_5
       rect:
         serializedVersion: 2
         x: 640
@@ -229,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87107d3616a404356856b0c76ac9c711
-      internalID: 1775951841
+      spriteID: 442293d68812d4d679d7c7360fdb0780
+      internalID: 683604975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_6
+      name: AirIdlePala_6
       rect:
         serializedVersion: 2
         x: 768
@@ -250,14 +250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fbbab0ac937340188bf8f9dc79370b9
-      internalID: -1829498384
+      spriteID: 5bba605e4673346be855264006c2a5a8
+      internalID: -454455117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_7
+      name: AirIdlePala_7
       rect:
         serializedVersion: 2
         x: 896
@@ -271,14 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2fc1ae67cb3040f3bd3bf4f8847efa1
-      internalID: -392190494
+      spriteID: 2205154042bf247e390f48cf86c6509a
+      internalID: -1381059719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_8
+      name: AirIdlePala_8
       rect:
         serializedVersion: 2
         x: 0
@@ -292,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 711f96c08acc24613a70d2f0189f216a
-      internalID: -815146827
+      spriteID: d3bd25bb26f0f451e945430c953a57d3
+      internalID: -1394934796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_9
+      name: AirIdlePala_9
       rect:
         serializedVersion: 2
         x: 128
@@ -313,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fb9cea82814e47709d9ac6dca24e11d
-      internalID: -1521765791
+      spriteID: 908c44d59666a4e33b8b9ca128123300
+      internalID: -1273871663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_10
+      name: AirIdlePala_10
       rect:
         serializedVersion: 2
         x: 256
@@ -334,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 085f5976d8e2a4ee59ecf35944169bf7
-      internalID: 1410281416
+      spriteID: 8688ac97353e1470585585bbadf6a886
+      internalID: 935509576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_11
+      name: AirIdlePala_11
       rect:
         serializedVersion: 2
         x: 384
@@ -355,14 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04b8acd6f3f5b4bf4b4eddd665d1006b
-      internalID: -1421091251
+      spriteID: 30510b1ed5a2845ab8eb6972237ceb68
+      internalID: -1628895401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_12
+      name: AirIdlePala_12
       rect:
         serializedVersion: 2
         x: 512
@@ -376,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66ef341a3c3d5431385b039fdc7154dc
-      internalID: 1453040975
+      spriteID: b2700522f1aca45759069150ed39fa36
+      internalID: 886827135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_13
+      name: AirIdlePala_13
       rect:
         serializedVersion: 2
         x: 640
@@ -397,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c788b008d63f47a1bbf58095100c8a2
-      internalID: 2089898059
+      spriteID: 710663b1eceb8456187577178844a2a6
+      internalID: 564129576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_14
+      name: AirIdlePala_14
       rect:
         serializedVersion: 2
         x: 768
@@ -418,14 +418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe4e8ddf577884eb4b075414cb463070
-      internalID: -386086690
+      spriteID: c82025264f179477ca4e08d812c64001
+      internalID: -793587659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_15
+      name: AirIdlePala_15
       rect:
         serializedVersion: 2
         x: 896
@@ -439,14 +439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 188d16ee0ab8a4b588ad8325cb847fb6
-      internalID: 997159153
+      spriteID: fb60141f65ab646a89034a2c2581ab11
+      internalID: -1997170633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_16
+      name: AirIdlePala_16
       rect:
         serializedVersion: 2
         x: 0
@@ -460,14 +460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04ed5324f8eab42e29ac9f01eefad855
-      internalID: 835850547
+      spriteID: a1db7d8d203e24c5295f6bfde35a9f11
+      internalID: 690361764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_17
+      name: AirIdlePala_17
       rect:
         serializedVersion: 2
         x: 128
@@ -481,14 +481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8e14adaeae7846cc901ac275a8e0d41
-      internalID: 644750597
+      spriteID: 8112063dd046b4a5a83d6052ee854513
+      internalID: -802828271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_18
+      name: AirIdlePala_18
       rect:
         serializedVersion: 2
         x: 256
@@ -502,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99bf8718c117c4a839bacc6e8edecc85
-      internalID: 1424809334
+      spriteID: 851ffec7be1bf41809b5ae3ef00bc800
+      internalID: 1070578612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AirIdle_19
+      name: AirIdlePala_19
       rect:
         serializedVersion: 2
         x: 384
@@ -523,29 +523,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98958357a99ca4862bc002485d8d3167
-      internalID: 1669384328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AirIdle_20
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 640
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89479bdf2c32f4f928c7067a13ce011f
-      internalID: -646021695
+      spriteID: 888fdbbc9219c4a3ab1a35af529e6cf6
+      internalID: -1757305042
       vertices: []
       indices: 
       edges: []
@@ -561,27 +540,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      AirIdle_0: 328331361
-      AirIdle_1: -592708970
-      AirIdle_10: 1410281416
-      AirIdle_11: -1421091251
-      AirIdle_12: 1453040975
-      AirIdle_13: 2089898059
-      AirIdle_14: -386086690
-      AirIdle_15: 997159153
-      AirIdle_16: 835850547
-      AirIdle_17: 644750597
-      AirIdle_18: 1424809334
-      AirIdle_19: 1669384328
-      AirIdle_2: -282319979
-      AirIdle_20: -646021695
-      AirIdle_3: -1236160851
-      AirIdle_4: -427116838
-      AirIdle_5: 1775951841
-      AirIdle_6: -1829498384
-      AirIdle_7: -392190494
-      AirIdle_8: -815146827
-      AirIdle_9: -1521765791
+      AirIdlePala_0: 503811020
+      AirIdlePala_1: -1241395197
+      AirIdlePala_10: 935509576
+      AirIdlePala_11: -1628895401
+      AirIdlePala_12: 886827135
+      AirIdlePala_13: 564129576
+      AirIdlePala_14: -793587659
+      AirIdlePala_15: -1997170633
+      AirIdlePala_16: 690361764
+      AirIdlePala_17: -802828271
+      AirIdlePala_18: 1070578612
+      AirIdlePala_19: -1757305042
+      AirIdlePala_2: -371764121
+      AirIdlePala_3: 1595188713
+      AirIdlePala_4: -1692512687
+      AirIdlePala_5: 683604975
+      AirIdlePala_6: -454455117
+      AirIdlePala_7: -1381059719
+      AirIdlePala_8: -1394934796
+      AirIdlePala_9: -1273871663
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
