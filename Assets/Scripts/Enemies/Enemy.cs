@@ -13,19 +13,22 @@ public abstract class Enemy : MonoBehaviour
     protected Transform playerT;
     protected Animator anim;
     protected SpriteRenderer sr;
+    protected Rigidbody2D rb;
 
     protected bool playerFound = false;
     protected int moveDirection;
     protected float idleTime;
     protected float moveTime;
     protected float chaseTime;
+    protected float chargeTime;
     [SerializeField] protected float idleTimeMin;
     [SerializeField] protected float moveTimeMin;
     [SerializeField] protected float idleTimeMax;
     [SerializeField] protected float moveTimeMax;
     [SerializeField] protected float chaseTimeMax;
+    [SerializeField] protected float chargeTimeMax;
 
-    public enum EnemyState {Idle, Moving, Chasing}
+    public enum EnemyState {Idle, Moving, Chasing, Charging}
     protected EnemyState currentState = EnemyState.Idle;
 
     // Start is called before the first frame update
@@ -34,9 +37,11 @@ public abstract class Enemy : MonoBehaviour
         playerT = GameObject.Find("Player").transform;
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
         idleTime = idleTimeMax;
         moveTime = moveTimeMax;
         chaseTime = chaseTimeMax;
+        chargeTime = chargeTimeMax;
     }
 
     // Update is called once per frame
@@ -69,6 +74,9 @@ public abstract class Enemy : MonoBehaviour
                 break;
             case EnemyState.Chasing:
                 Chasing();
+                break;
+            case EnemyState.Charging:
+                Charging();
                 break;
         }
         playerFound = false;
@@ -103,15 +111,6 @@ public abstract class Enemy : MonoBehaviour
 
     protected virtual void Chasing()
     {
-        if(playerT.position.x < transform.position.x)
-        {
-            sr.flipX = true;
-        }
-        else
-        {
-            sr.flipX = false;
-        }
-
         if(!playerFound)
         {
             chaseTime -= Time.deltaTime;
@@ -128,6 +127,11 @@ public abstract class Enemy : MonoBehaviour
             moveTime = Random.Range(moveTimeMin, moveTimeMax);
             anim.SetTrigger("ToStopMove");
         }
+    }
+
+    protected virtual void Charging()
+    {
+        chargeTime -= Time.deltaTime;
     }
 
     public void TakeDamage(int damage){

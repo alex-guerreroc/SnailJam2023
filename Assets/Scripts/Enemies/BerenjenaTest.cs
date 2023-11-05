@@ -58,5 +58,13 @@ public class BerenjenaTest : Enemy
     {
         base.Chasing();
         transform.position = Vector2.MoveTowards(transform.position, playerT.position, speed*Time.deltaTime);
+        if(playerT.position.x < transform.position.x)
+        {
+            sr.flipX = true;
+        }
+        else
+        {
+            sr.flipX = false;
+        }
     }
 }

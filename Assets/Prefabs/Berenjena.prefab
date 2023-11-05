@@ -145,7 +145,7 @@ MonoBehaviour:
   health: 2
   speed: 5
   playerDetectRadius: 6
-  bloodEffect: {fileID: 0}
+  bloodEffect: {fileID: 304027038790518012, guid: 44eca14d32a57479594cfff00bae5a55, type: 3}
   idleTimeMin: 3
   moveTimeMin: 2
   idleTimeMax: 5
