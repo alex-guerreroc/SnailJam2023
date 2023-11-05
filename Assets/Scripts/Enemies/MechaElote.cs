@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cebolla : Enemy
+public class MechaElote : Enemy
 {
     // Start is called before the first frame update
     protected override void Start()
@@ -50,8 +50,6 @@ public class Cebolla : Enemy
 
     protected override void Chasing()
     {
-        //Collider2D leftFloor = Physics2D.OverlapCircle(transform.position + new Vector3(-0.5f, -0.6f,0),0.01f);
-        //Collider2D rightFloor = Physics2D.OverlapCircle(transform.position + new Vector3(0.5f, -0.6f,0),0.01f);
         base.Chasing();
         if(rb.velocity.x == 0)
         {
@@ -71,12 +69,5 @@ public class Cebolla : Enemy
         {
             rb.velocity = new Vector2(0,0);
         }
-        
-        
-        /*
-        if((rb.velocity.x > 0 && rightFloor != null) || (rb.velocity.x < 0 && leftFloor != null))
-        {
-            rb.velocity = new Vector2(-1*rb.velocity.x, rb.velocity.y);
-        }*/
     }
 }

@@ -13,16 +13,16 @@ public class ataqueRango : MonoBehaviour
  private void Update()
     {
         // Handles the weapon rotation
-        Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+        Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - (transform.position + new Vector3(0,+1.04f,0));
         float rotZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0f, 0f, rotZ + offset);
+        //transform.rotation = Quaternion.Euler(0f, 0f, rotZ + offset);
 
         if (timeBtwShots <= 0)
         {
-            if (Input.GetMouseButton(0))
+            if (Input.GetMouseButtonDown(0))
             {
                 Debug.Log("Has shot!");
-                Instantiate(projectile, shotPoint.position, transform.rotation);
+                Instantiate(projectile, shotPoint.position, Quaternion.Euler(0f, 0f, rotZ + offset));
                 timeBtwShots = startTimeBtwShots;
             }
         }

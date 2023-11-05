@@ -24,7 +24,7 @@ public class PlayerAttack : MonoBehaviour
     void Update()
     {
         if (timeBtwAttack<=0){
-            if(Input.GetKey(KeyCode.Z)){
+            if(Input.GetMouseButtonDown(1)){
 
                 Debug.Log("Has attacked!");
                 Collider2D[] enemiesToDamage=Physics2D.OverlapCircleAll(attackPos.position,attackRange,whatIsEnemies);
@@ -35,9 +35,8 @@ public class PlayerAttack : MonoBehaviour
                     }
                     
                 }
+                timeBtwAttack=startTimeBtwAttack;
             }
-
-            timeBtwAttack=startTimeBtwAttack;
 
         } else {
             timeBtwAttack-=Time.deltaTime;
