@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1564624966894818131}
   - component: {fileID: 3544250057745246361}
   - component: {fileID: -7322834373160236591}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cebolla
   m_TagString: Enemy
   m_Icon: {fileID: 0}

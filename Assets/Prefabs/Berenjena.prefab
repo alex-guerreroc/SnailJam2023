@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -2278968152300598884}
   - component: {fileID: 1511456392010774247}
   - component: {fileID: 8444776130786238892}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Berenjena
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -151,6 +151,7 @@ MonoBehaviour:
   idleTimeMax: 5
   moveTimeMax: 3
   chaseTimeMax: 0.5
+  chargeTimeMax: 0
 --- !u!70 &1511456392010774247
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

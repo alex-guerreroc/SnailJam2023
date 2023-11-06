@@ -44,7 +44,6 @@ public class ataqueRango : MonoBehaviour
     {
         Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - (transform.position + new Vector3(0,+1.04f,0));
         float rotZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
-        Debug.Log("Has shot!");
         Instantiate(projectile, shotPoint.position, Quaternion.Euler(0f, 0f, rotZ + offset));
     }
     // Update is called once per frame
