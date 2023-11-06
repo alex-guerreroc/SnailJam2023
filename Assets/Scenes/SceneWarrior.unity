@@ -1854,6 +1854,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   attackRange: 0.95
+  audioPlayer: {fileID: 0}
   damage: 1
 --- !u!114 &1191255333
 MonoBehaviour:
@@ -2004,8 +2005,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1.04}
-  m_Size: {x: 1.49, y: 2.18}
+  m_Offset: {x: 0, y: 0.9434645}
+  m_Size: {x: 1.49, y: 1.9869289}
   m_Direction: 0
 --- !u!95 &1191255339
 Animator:

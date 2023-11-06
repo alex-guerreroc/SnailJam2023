@@ -14,6 +14,8 @@ public class PlayerScriptNuevo : MonoBehaviour
     public float jumpTime;
     private bool isJumping;
 
+    private Animator anim;
+
 
     private float coyoteTime=0.12f;
     private float coyoteTimeCounter;
@@ -29,20 +31,32 @@ public class PlayerScriptNuevo : MonoBehaviour
     void Start()
     {
         rb=GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
 
 void Update()
     {
+        if(moveInput != 0)
+        {
+            anim.SetBool("Run", true);
+        }
+        else
+        {
+            anim.SetBool("Run", false);
+        }
+        
         isGrounded=Physics2D.OverlapCircle(feetPos.position,checkRadius,whatIsGround);
         if(isGrounded==true){
             coyoteTimeCounter=coyoteTime;
         }
         else{
             coyoteTimeCounter-=Time.deltaTime;
+            anim.SetBool("Jump", false);
         }
 
         if(Input.GetKeyDown(KeyCode.Space)){
+            anim.SetBool("Jump", true);
             jumpBufferCounter=jumpBufferTime;
         }
 
