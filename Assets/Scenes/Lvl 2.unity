@@ -3712,7 +3712,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -10307,6 +10307,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 432794817}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: PauseGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1537292822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12121,7 +12133,7 @@ RectTransform:
   m_GameObject: {fileID: 1816016591}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.66625, y: 0.66625, z: 0.66625}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 0.66625}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 99659908}
@@ -12129,7 +12141,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -223.19374, y: 123.256256}
+  m_AnchoredPosition: {x: -314, y: 158}
   m_SizeDelta: {x: 55.8166, y: 29.5849}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1816016593

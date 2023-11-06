@@ -1,13 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EndPortal : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        // Check if the player has collided with the portal
+
+    }
+
+    public void OnTriggerEnter2D(Collider2D other)
+    {
         if (other.gameObject.CompareTag("Player"))
         {
             //debug message
