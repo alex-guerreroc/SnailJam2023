@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4544445018841362778}
   - component: {fileID: 3950683442051248056}
   - component: {fileID: 9196555936017644449}
+  - component: {fileID: 9172049803198066618}
   m_Layer: 0
   m_Name: projectile
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.5926049, y: 1.7938517, z: -0.054011546}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -125,3 +126,24 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 320
   destroyEffect: {fileID: 6004119982724630573, guid: d8f743516f86d4c31bf925faa02b39a7, type: 3}
+--- !u!95 &9172049803198066618
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8391921280595970186}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c2e95c6f3bd25c847ae9fddc151322d1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

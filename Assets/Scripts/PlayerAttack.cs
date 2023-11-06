@@ -13,11 +13,13 @@ public class PlayerAttack : MonoBehaviour
     public LayerMask whatIsEnemies;
     public float attackRange;
 
+    private Animator anim;
+
     public int damage;
     // Start is called before the first frame update
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -25,7 +27,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if (timeBtwAttack<=0){
             if(Input.GetMouseButtonDown(1)){
-
+                anim.SetTrigger("ShotgunAttack");
                 Debug.Log("Has attacked!");
                 Collider2D[] enemiesToDamage=Physics2D.OverlapCircleAll(attackPos.position,attackRange,whatIsEnemies);
                 for (int i=0; i<enemiesToDamage.Length;i++){
