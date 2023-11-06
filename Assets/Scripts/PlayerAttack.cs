@@ -12,7 +12,7 @@ public class PlayerAttack : MonoBehaviour
     public Transform attackPos;
     public LayerMask whatIsEnemies;
     public float attackRange;
-
+    public AudioSource audioPlayer;
     public int damage;
     // Start is called before the first frame update
     void Start()
@@ -32,6 +32,7 @@ public class PlayerAttack : MonoBehaviour
                     if(enemiesToDamage[i].tag == "Enemy")
                     {
                         enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
+                        audioPlayer.Play();
                     }
                     
                 }

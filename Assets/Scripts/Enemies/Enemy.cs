@@ -135,7 +135,6 @@ public abstract class Enemy : MonoBehaviour
     }
 
     public void TakeDamage(int damage){
-            Instantiate(bloodEffect,transform.position,Quaternion.identity);
             health-=damage;
             Debug.Log("Damage Taken!");
         }

@@ -5,6 +5,8 @@ using UnityEngine;
 public class ScriptEnemigoNuevo : MonoBehaviour
 {
 
+
+
     public int health;
     public float speed;
 
@@ -26,7 +28,6 @@ public class ScriptEnemigoNuevo : MonoBehaviour
 
     }
     public void TakeDamage(int damage){
-        Instantiate(bloodEffect,transform.position,Quaternion.identity);
         health-=damage;
         Debug.Log("Damage Taken!");
 

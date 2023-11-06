@@ -125,3 +125,4 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 320
   destroyEffect: {fileID: 6004119982724630573, guid: d8f743516f86d4c31bf925faa02b39a7, type: 3}
+  audioPlayer: {fileID: 0}

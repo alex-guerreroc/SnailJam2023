@@ -9,6 +9,8 @@ public class ataqueRango : MonoBehaviour
     public Transform shotPoint;
     private float timeBtwShots;
     public float startTimeBtwShots;
+
+
     // Start is called before the first frame update
  private void Update()
     {

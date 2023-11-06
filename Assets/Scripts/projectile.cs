@@ -10,6 +10,7 @@ public class projectile : MonoBehaviour
     public int damage;
     public LayerMask whatIsSolid;
     public GameObject destroyEffect;
+     public AudioSource audioPlayer;   
 
     private void Start()
     {
@@ -22,8 +23,11 @@ public class projectile : MonoBehaviour
         if (hitInfo.collider != null) {
             if (hitInfo.collider.CompareTag("Enemy")) {
                 hitInfo.collider.GetComponent<Enemy>().TakeDamage(damage);
+                
+
             }
             DestroyProjectile();
+            audioPlayer.Play();
         }
 
 
